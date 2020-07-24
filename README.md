@@ -1,6 +1,6 @@
 # sapper-sass-template
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
+The default [Sapper](https://github.com/sveltejs/sapper) template, available only for Rollup.
 
 Sass is enabled by default (see `/src/routes/_layout.svelte` for an example).
 
@@ -13,7 +13,7 @@ Some other, more opinionated features are present as well, such as configuration
 [`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository.
 
 ```bash
-npx degit "lucianoratamero/sapper-sass-template" my-app
+npx degit lucianoratamero/sapper-sass-template my-app
 ```
 
 ### Running the project
@@ -70,7 +70,7 @@ import { files } from '@sapper/service-worker';
 
 ## Bundler config
 
-Sapper uses Rollup or webpack to provide code-splitting and dynamic imports, as well as compiling your Svelte components. With webpack, it also provides hot module reloading. As long as you don't do anything daft, you can edit the configuration files to add whatever plugins you'd like.
+Sapper uses Rollup to provide code-splitting and dynamic imports, as well as compiling your Svelte components. As long as you don't do anything daft, you can edit the configuration files to add whatever plugins you'd like.
 
 ## Production mode and deployment
 
